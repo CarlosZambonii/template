@@ -223,7 +223,7 @@ if uploaded_file:
     output.seek(0)
 
     st.download_button(
-        label=f"Baixar Planilha {opcao}",
+        label=f"Baixar Ficheiro {opcao}",
         data=output,
         file_name=f"{opcao.lower().replace(' ', '_')}_formatado.xlsx",
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
