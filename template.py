@@ -149,7 +149,7 @@ if uploaded_file:
 
         aplicar_formatacao(ws, "A1:A117", font_size=12, fill_color="8DB3E2")
         ws["A1"].value = "Resumo Mensal"
-        aplicar_formatacao(ws, "A1:F1", font_size=12, bold=True, fill_color="B8CCE4")
+        aplicar_formatacao(ws, "A1:E1", font_size=12, bold=True, fill_color="B8CCE4")
             #limites na planilha toda
 
         aplicar_formatacao(ws, "A1:W117", border=True)
