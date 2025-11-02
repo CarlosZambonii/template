@@ -176,7 +176,7 @@ if uploaded_file:
     
          aplicar_formatacao(ws, "A4:S4", border=True, fill_color="BFBFBF")
          ws.merge_cells("M4:S4")
-         aplicar_formatacao(ws, "C6:S6", border=True, fill_color="#B8CCE4", font_color="FFFFFF")
+         aplicar_formatacao(ws, "C6:S6", border=True, fill_color="B8CCE4", font_color="FFFFFF")
       
          aplicar_formatacao(ws, "A7:B7", border=True, bold=True, fill_color="D8D8D8")
          aplicar_formatacao(ws, "A7:B7", border=True, fill_color="D8D8D8")
